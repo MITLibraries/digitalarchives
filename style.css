@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+Theme Name: Digital Archives child theme
+Description: Child theme for Digital Archives blog
+Author: Darcy Duke
+Template: twentyten
+*/
+
+@import url("../twentyten/style.css");
+
+
+
+/*This makes it our font set*/
+body {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+/*This makes the font size work better for our font set*/
+#content, #content input, #content textarea {
+font-size:1.2em;
+}
+
+/*This reduces the size of the web site title*/
+#site-title {
+    font-size: 25px;
+    line-height: 31px;
+	}
+
+/*This changes the color of the web site title*/
+#site-title a {
+    color:#666
+ 
+}
+
+/*This hides the author and date under the header on the images pages.*/
+/*.meta-prep, .entry-date, .meta-sep, .author.vcard {
+	display:none;
+}
+*/
+
+/*This hides the commenting options and post category.*/
+/*.entry-utility {
+	display: none
+}*/
+
+/*This hides the WordPress links in the footer*/
+#site-generator {
+	display:none;
+}
+
+/*This hides the site link in the footer, to put the dome logo in instead.*/
+#site-info a {
+    display:none;
+}
+
+/*This hides the author info section under each post on an individual post page.*/
+#entry-author-info {
+	display:none;
+}
+
+#footer-widget-area #fourth {float:right;}
+
